@@ -1,0 +1,89 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "HelloCustomerClient",
+            "request": "launch",
+            "mainClass": "HelloCustomerClient",
+            "projectName": "FXML_project_db70c06b",
+            "vmArgs": "--module-path \"C:/Program Files/java/javafx-sdk-17.0.8/lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base,javafx.media,javafx.swing"
+        },
+        {
+            "type": "java",
+            "name": "HelloRestaurantClient",
+            "request": "launch",
+            "mainClass": "HelloRestaurantClient",
+            "projectName": "FXML_project_db70c06b",
+            "vmArgs": "--module-path \"C:/Program Files/java/javafx-sdk-17.0.8/lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base,javafx.media,javafx.swing"
+        },
+        {
+            "type": "java",
+            "name": "RestaurantClient",
+            "request": "launch",
+            "mainClass": "RestaurantClient",
+            "projectName": "FXML_project_db70c06b",
+            "vmArgs": "--module-path \"C:/Program Files/java/javafx-sdk-17.0.8/lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base,javafx.media,javafx.swing"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "FXML_project_db70c06b",
+            "vmArgs": "--module-path \"C:/Program Files/java/javafx-sdk-17.0.8/lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base,javafx.media,javafx.swing"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "Server",
+            "projectName": "FXML_project_db70c06b",
+            "vmArgs": "--module-path \"C:/Program Files/java/javafx-sdk-17.0.8/lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base,javafx.media,javafx.swing"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Main",
+            "vmArgs": "--module-path \"C:/Program Files/java/javafx-sdk-17.0.8/lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base,javafx.media,javafx.swing"
+        }
+    ]
+}
